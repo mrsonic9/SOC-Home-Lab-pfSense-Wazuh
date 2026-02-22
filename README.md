@@ -25,12 +25,9 @@ In this phase, the firewall was upgraded with a threat intelligence feed to redu
 * Applied "Deny Both" firewall rules to the Inbound (WAN) and Outbound (LAN) interfaces.
 * Verified the auto-generated block rules inside the pfSense firewall rules dashboard.
 
-🔍 Phase 3: Endpoint Visibility & Active Response (Completed)
+## 🔍 Phase 3: Endpoint Visibility & Active Response (Completed)
 
-        Deployed the Wazuh Agent to the internal Windows 10 VM.
-
-        Configured File Integrity Monitoring (FIM) to track unauthorized system changes.
-
-        Enabled Vulnerability Detection to continuously scan the endpoint for unpatched software.
-
-        Implemented Active Response scripts to automatically isolate threats upon detection.
+* Deployed the Wazuh Agent to the internal Windows 10 VM.
+* Configured File Integrity Monitoring (FIM) to track unauthorized system changes.
+* Enabled Vulnerability Detection to continuously scan the endpoint for unpatched software.
+* Implemented Active Response scripts to automatically isolate threats upon detection.
