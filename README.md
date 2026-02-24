@@ -4,7 +4,6 @@
 The goal of this project is to build a functional Security Operations Center (SOC) home lab for Defensive Security (Blue Teaming). This environment integrates a pfSense network firewall with a Wazuh SIEM to capture network traffic, apply threat intelligence, and automatically block malicious inbound and outbound connections.
 
 ## 🏗️ Network Architecture
-[Insert a screenshot of your network topology here if you have one]
 * **Firewall:** pfSense (Virtual Machine)
 * **SIEM:** Wazuh Manager (Ubuntu Host)
 * **Endpoint:** Windows 10 (Virtual Machine on LAN Segment)
